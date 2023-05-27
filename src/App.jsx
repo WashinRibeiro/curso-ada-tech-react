@@ -20,6 +20,7 @@ function App() {
       <MeuContador/>
 
       {/* Aula 06 - Listas e chaves */}
+      {/* Aula 07 - Efeitos colaterais */}
       <MinhaLista/>
     </div>
   );
