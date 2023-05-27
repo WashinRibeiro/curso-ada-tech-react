@@ -1,3 +1,4 @@
+import BuscandoDados from "./components/BuscandoDados";
 import MeuBotao from "./components/MeuBotao";
 import MeuComponente from "./components/MeuComponente";
 import MeuContador from "./components/MeuContador";
@@ -22,6 +23,9 @@ function App() {
       {/* Aula 06 - Listas e chaves */}
       {/* Aula 07 - Efeitos colaterais */}
       <MinhaLista/>
+
+      {/* Aula 08 - Buscando dados com fetch */}
+      <BuscandoDados/>
     </div>
   );
 }
