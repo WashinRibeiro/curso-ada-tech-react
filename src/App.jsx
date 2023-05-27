@@ -18,6 +18,7 @@ function App() {
 
       {/* Aula 04 - Estados e eventos */}
       {/* Aula 05 - Renderização condicional */}
+      {/* Aula 09 - Estilização com classes e CSS Modules */}
       <MeuContador/>
 
       {/* Aula 06 - Listas e chaves */}

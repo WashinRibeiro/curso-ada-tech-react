@@ -1,4 +1,5 @@
 import { useState } from "react";
+import styles from '../styles/button.module.css'
 
 export default function MeuContador() {
   const [cont, setCont] = useState(0);
@@ -13,19 +14,19 @@ export default function MeuContador() {
 
   if (cont > 5) {
     return (
-      <div>
+      <div className="container">
         <h1>Valor muito alto!</h1>
-        <button onClick={diminuir}> Diminuir </button>
-        <button onClick={aumentar}> Aumentar </button>
+        <button className={styles.myButton} onClick={diminuir}> Diminuir </button>
+        <button className={styles.myButton} onClick={aumentar}> Aumentar </button>
       </div>
     )
   }
 
   return (
-    <div>
+    <div className="container">
       <h1>Meu contador: {cont}</h1>
-      <button onClick={diminuir}> Diminuir </button>
-      <button onClick={aumentar}> Aumentar </button>
+      <button className={styles.myButton} onClick={diminuir}> Diminuir </button>
+      <button className={styles.myButton} onClick={aumentar}> Aumentar </button>
     </div>
   );
 }
