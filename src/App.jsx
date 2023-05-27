@@ -1,6 +1,7 @@
 import MeuBotao from "./components/MeuBotao";
 import MeuComponente from "./components/MeuComponente";
 import MeuContador from "./components/MeuContador";
+import MinhaLista from "./components/MinhaLista";
 
 function App() {
   return (
@@ -16,7 +17,10 @@ function App() {
 
       {/* Aula 04 - Estados e eventos */}
       {/* Aula 05 - Renderização condicional */}
-      <MeuContador></MeuContador>
+      <MeuContador/>
+
+      {/* Aula 06 - Listas e chaves */}
+      <MinhaLista/>
     </div>
   );
 }
